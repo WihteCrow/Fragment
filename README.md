@@ -1,5 +1,5 @@
-#codePoint
-The codePoint is code fragments, in order to facilitate future use.
+#Fragment
+code fragments, in order to facilitate future use.
 
 ###GUID
 > 引入`node-uuid`
