@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>amd test</title>
+    <script type="text/javascript" src="http://cdn.staticfile.org/underscore.js/1.7.0/underscore-min.js"></script>
+    <script type="text/javascript" src="../../library/load-.js"></script>
+</head>
+<body>
+<script type="text/javascript">
+    load.config({
+        baseUrl: '/Fragment/test/amd-test/js/'
+    });
+    load.use('a', function(a) {
+        console.log(a);
+    });
+</script>
+</body>
+</html>
