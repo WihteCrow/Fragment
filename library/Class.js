@@ -5,7 +5,7 @@
  * */
 
 
-//´´½¨×Ô¼ºµÄÀàÄ£Äâ¿â
+//åˆ›å»ºè‡ªå·±çš„ç±»æ¨¡æ‹Ÿåº“
 var Class = function () {
     'use strict';
     var _class = function () {
@@ -28,8 +28,8 @@ var Class = function () {
 var Preson = new Class;
 
 Preson.prototype.init = function () {
-    //Person ÊµÀı×ö³õÊ¼»¯
+    //Person å®ä¾‹åšåˆå§‹åŒ–
 };
 
-//ÓÃ·¨
+//ç”¨æ³•
 var Person = new Person;
