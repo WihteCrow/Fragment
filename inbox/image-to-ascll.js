@@ -1,20 +1,20 @@
 /**
- * ImageToAsciiÄ£¿é
+ * ImageToAsciiæ¨¡å—
  *
  * @function
- * @param           {Object|String}     ²ÎÊı¶ÔÏó:
+ * @param           {Object|String}     å‚æ•°å¯¹è±¡:
  *
- *  - `path`        (String):           Í¼Æ¬Â·¾¶.
- *  - `pixels`      (String|Array):     ÓÃ ASCII ´úÌæÍ¼Æ¬ÏñËØ (Ä¬ÈÏÖµ: `" .,:;i1tfLCG08@"`).
- *  - `pxWidth`     (Number):           ÓÃÓÚ³¤¿í±ÈÏñËØ¿í¶È (Ä¬ÈÏÖµ: `2`).
- *  - `reverse`     (Boolean):          If `true`, ÏñËØ½«±»Äæ×ª (Ä¬ÈÏÖµ: `false`).
- *  - `colored`     (Boolean):          If `true`, ¾ßÓĞÑÕÉ« (Ä¬ÈÏÖµ: `true`).
- *  - `aRatio`      (Boolean):          If `true`, ±£³Ö±ÈÀı (Ä¬ÈÏÖµ: `false`).
- *  - `size`        (Object):           Í¼Æ¬´óĞ¡ÉèÖÃ:
- *     - `height`   (Number|String):    ¸ß (Ä¬ÈÏÖµ: `"100%"`).
- *     - `width`    (Number|String):    ¿í (Ä¬ÈÏÖµ: °´Ô­ÏÈÍ¼Æ¬±ÈÀı¾ö¶¨¿í¶È).
+ *  - `path`        (String):           å›¾ç‰‡è·¯å¾„.
+ *  - `pixels`      (String|Array):     ç”¨ ASCII ä»£æ›¿å›¾ç‰‡åƒç´  (é»˜è®¤å€¼: `" .,:;i1tfLCG08@"`).
+ *  - `pxWidth`     (Number):           ç”¨äºé•¿å®½æ¯”åƒç´ å®½åº¦ (é»˜è®¤å€¼: `2`).
+ *  - `reverse`     (Boolean):          If `true`, åƒç´ å°†è¢«é€†è½¬ (é»˜è®¤å€¼: `false`).
+ *  - `colored`     (Boolean):          If `true`, å…·æœ‰é¢œè‰² (é»˜è®¤å€¼: `true`).
+ *  - `aRatio`      (Boolean):          If `true`, ä¿æŒæ¯”ä¾‹ (é»˜è®¤å€¼: `false`).
+ *  - `size`        (Object):           å›¾ç‰‡å¤§å°è®¾ç½®:
+ *     - `height`   (Number|String):    é«˜ (é»˜è®¤å€¼: `"100%"`).
+ *     - `width`    (Number|String):    å®½ (é»˜è®¤å€¼: æŒ‰åŸå…ˆå›¾ç‰‡æ¯”ä¾‹å†³å®šå®½åº¦).
  *
- * @param           {Function}          »Øµ÷º¯Êı.
+ * @param           {Function}          å›è°ƒå‡½æ•°.
  * @return          {undefined}
  */
 var ImageToAscii = module.exports = function (options, callback) {
